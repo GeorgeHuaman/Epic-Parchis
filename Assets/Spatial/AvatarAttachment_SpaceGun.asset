@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 0
   sku: 
-  packageName: Space Gun
+  packageName: 123
   thumbnail: {fileID: 2800000, guid: 4b125fed008194698825974a3569a074, type: 3}
   savedProjectSettings: {fileID: 0}
   prefab: {fileID: 8728467092330814728, guid: 450ad2fc1d8764c6790f3cb94624afb7, type: 3}
