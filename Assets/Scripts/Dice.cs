@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dice : MonoBehaviour
+public class Dice : SpatialNetworkBehaviour
 {
     private const int DICE_FACES = 6;
 
@@ -38,6 +38,7 @@ public class Dice : MonoBehaviour
     {
         if (isRolling) return;
 
+        GiveControl();
         isRolling = true;
         animationTimer = animationDuration;
     }
@@ -58,5 +59,14 @@ public class Dice : MonoBehaviour
     private void RollAnimation()
     {
         transform.rotation *= Quaternion.Euler(diceRotationShift * Time.deltaTime);
+    }
+    public void GiveControl()
+    {
+        if (!hasControl)
+        {
+            SpatialNetworkObject obj = GetComponent<SpatialNetworkObject>();
+            obj.RequestOwnership();
+        }
+
     }
 }

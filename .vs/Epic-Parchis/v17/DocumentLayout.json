@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Proyectos\\Epic-Parchis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|e:\\proyectos\\epic-parchis\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|e:\\proyectos\\epic-parchis\\assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\playerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,19 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dice.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dice.cs",
               "ToolTip": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T20:07:38.791Z"
+              "WhenOpened": "2025-03-06T20:07:38.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -54,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -62,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T01:20:42.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T01:20:42.417Z"
             },
             {
               "$type": "Document",
