@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Proyectos\\Epic-Parchis\\",
+  "WorkspaceRootPath": "D:\\Github\\Epic-Parchis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|e:\\proyectos\\epic-parchis\\assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\playerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|D:\\Github\\Epic-Parchis\\assets\\scripts\\playerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\playerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|E:\\Proyectos\\Epic-Parchis\\assets\\scripts\\chooseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249870F3-2968-15E9-A5F2-ED3E19A17D6D}|Assembly-CSharp.csproj|d:\\github\\epic-parchis\\assets\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249870F3-2968-15E9-A5F2-ED3E19A17D6D}|Assembly-CSharp.csproj|solutionrelative:assets\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249870F3-2968-15E9-A5F2-ED3E19A17D6D}|Assembly-CSharp.csproj|d:\\github\\epic-parchis\\assets\\createtarjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249870F3-2968-15E9-A5F2-ED3E19A17D6D}|Assembly-CSharp.csproj|solutionrelative:assets\\createtarjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|D:\\Github\\Epic-Parchis\\assets\\scripts\\chooseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\chooseteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|D:\\Github\\Epic-Parchis\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|D:\\Github\\Epic-Parchis\\assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFDBC522-F6EE-CA1F-1C92-D9108C63F27D}|NewAssembly.csproj|solutionrelative:assets\\scripts\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,42 +34,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dice.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice.cs",
-              "ToolTip": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dice.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wCgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\Cards.cs",
+              "RelativeDocumentMoniker": "Assets\\Cards.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\Cards.cs",
+              "RelativeToolTip": "Assets\\Cards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T20:07:38.791Z",
+              "WhenOpened": "2025-03-08T00:56:17.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerID.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\PlayerID.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerID.cs",
-              "ToolTip": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\PlayerID.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerID.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Title": "CreateTarjet.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\CreateTarjet.cs",
+              "RelativeDocumentMoniker": "Assets\\CreateTarjet.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\CreateTarjet.cs",
+              "RelativeToolTip": "Assets\\CreateTarjet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T01:21:00.488Z"
+              "WhenOpened": "2025-03-08T00:43:05.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\Dice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T20:07:38.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerID.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\PlayerID.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerID.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\PlayerID.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T01:21:00.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T01:20:42.417Z"
             },
@@ -69,11 +103,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ChooseTeam.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\ChooseTeam.cs",
+              "DocumentMoniker": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\ChooseTeam.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChooseTeam.cs",
-              "ToolTip": "E:\\Proyectos\\Epic-Parchis\\Assets\\Scripts\\ChooseTeam.cs",
+              "ToolTip": "D:\\Github\\Epic-Parchis\\Assets\\Scripts\\ChooseTeam.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChooseTeam.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T01:01:19.868Z"
             }

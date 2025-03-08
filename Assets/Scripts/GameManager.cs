@@ -1,3 +1,4 @@
+using SpatialSys.UnitySDK;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,4 +20,10 @@ public class GameManager : MonoBehaviour
         //Debug.Log(player.Length);
 
     }
+
+    private void Start()
+    {
+    }
+
+
 }

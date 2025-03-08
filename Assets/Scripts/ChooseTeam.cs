@@ -2,23 +2,18 @@ using SpatialSys.UnitySDK;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SpatialSys.UnitySDK;
+using UnityEngine.UI;
 
-public class ChooseTeam : SpatialNetworkBehaviour, IVariablesChanged
+public class ChooseTeam : MonoBehaviour
 {
-    public NetworkVariable<int> teamID = new NetworkVariable<int>();
-    public void TagTeam(int x)
-    {
-        teamID.value = x;
-    }
+    public GameObject imageTeam;
+    public GameObject teamCanvas;
+    [HideInInspector]public RawImage teamChoose;
 
-    public void Confirm()
+    public void TagTeam(RawImage image)
     {
-
-    }
-
-    public void OnVariablesChanged(NetworkObjectVariablesChangedEventArgs args)
-    {
-        throw new System.NotImplementedException();
+        teamCanvas.SetActive(false);
+        imageTeam.SetActive(true);
+        imageTeam.transform.GetChild(0).GetComponent<RawImage>().texture = image.texture;
     }
 }
