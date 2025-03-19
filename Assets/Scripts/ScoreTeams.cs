@@ -2,59 +2,102 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class ScoreTeams : MonoBehaviour
+using SpatialSys.UnitySDK;
+public class ScoreTeams : SpatialNetworkBehaviour, IVariablesChanged
 {
     public TextMeshProUGUI hero;
     public TextMeshProUGUI rosa;
     public TextMeshProUGUI ballena;
     public TextMeshProUGUI skater;
-    
+
+    private NetworkVariable<int> scoreHero = new(initialValue: 0);
+    private NetworkVariable<int> scoreRosa = new(initialValue: 0);
+    private NetworkVariable<int> scoreBallena = new(initialValue: 0);
+    private NetworkVariable<int> scoreSkater = new(initialValue: 0);
+
     public void RestHero()
     {
-        int i = int.Parse(hero.text);
-        i = i - 1;
-        hero.text = i.ToString();
+        GiveControl();
+        if (scoreHero > 0)
+        {
+            scoreHero.value--;
+            hero.text = scoreHero.value.ToString();
+        }
     }
     public void SumHero()
     {
-        int i = int.Parse(hero.text);
-        i = i + 1;
-        hero.text = i.ToString();
+        GiveControl();
+        scoreHero.value++;
     }
     public void RestRosa()
     {
-        int i = int.Parse(rosa.text);
-        i = i - 1;
-        rosa.text = i.ToString();
+        GiveControl();
+        if (scoreRosa > 0)
+        {
+            scoreRosa.value--;
+            rosa.text = scoreRosa.value.ToString();
+        }
     }
     public void SumRosa()
     {
-        int i = int.Parse(rosa.text);
-        i = i + 1;
-        rosa.text = i.ToString();
+        GiveControl();
+        scoreRosa.value++;
     }
     public void RestBallena()
     {
-        int i = int.Parse(ballena.text);
-        i = i - 1;
-        ballena.text = i.ToString();
+        GiveControl();
+        if (scoreBallena > 0)
+        {
+            scoreBallena.value--;
+            ballena.text = scoreBallena.value.ToString();
+        }
     }
     public void SumBallena()
     {
-        int i = int.Parse(ballena.text);
-        i = i + 1;
-        ballena.text = i.ToString();
+        GiveControl();
+        scoreBallena.value++;
     }
     public void RestSkater()
     {
-        int i = int.Parse(skater.text);
-        i = i - 1;
-        skater.text = i.ToString();
+        GiveControl();
+        if (scoreSkater > 0)
+        {
+            scoreSkater.value--;
+            skater.text = scoreSkater.value.ToString();
+        }
     }
     public void SumSKater()
     {
-        int i = int.Parse(skater.text);
-        i = i + 1;
-        skater.text = i.ToString();
+        GiveControl();
+        scoreSkater.value++;
+    }
+
+    public void GiveControl()
+    {
+        if (!hasControl)
+        {
+            SpatialNetworkObject obj = GetComponent<SpatialNetworkObject>();
+            obj.RequestOwnership();
+        }
+
+    }
+    public void OnVariablesChanged(NetworkObjectVariablesChangedEventArgs args)
+    {
+        if (args.changedVariables.ContainsKey(scoreHero.id))
+        {
+            hero.text = scoreHero.value.ToString();
+        }
+        if (args.changedVariables.ContainsKey(scoreRosa.id))
+        {
+            rosa.text = scoreRosa.value.ToString();
+        }
+        if (args.changedVariables.ContainsKey(scoreBallena.id))
+        {
+            ballena.text = scoreBallena.value.ToString();
+        }
+        if (args.changedVariables.ContainsKey(scoreSkater.id))
+        {
+            skater.text = scoreSkater.value.ToString();
+        }
     }
 }
