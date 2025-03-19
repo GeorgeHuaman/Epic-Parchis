@@ -48,7 +48,7 @@ public class Dice : SpatialNetworkBehaviour
         isRolling = false;
 
         int value = Random.Range(1, DICE_FACES + 1);
-        //SpatialBridge.coreGUIService.DisplayToastMessage(value.ToString());
+        SpatialBridge.coreGUIService.DisplayToastMessage(value.ToString());
 
         if (orientations.Length > value - 1)
             transform.rotation = Quaternion.Euler(orientations[value - 1]);
